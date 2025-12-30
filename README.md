@@ -46,5 +46,3 @@ Each book contains:
 - No blocking calls (no JDBC, no `Thread.sleep`)
 
 ---
-
-### ➕ Create Book
