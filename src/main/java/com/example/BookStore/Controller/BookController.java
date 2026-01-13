@@ -41,7 +41,7 @@ public class BookController {
         return bookService.update(book,bookId);
     }
 
-    @DeleteMapping("/{booksId}")
+    @DeleteMapping("/{bookId}")
     public Mono<Void> create(@PathVariable Integer bookId) {
         return bookService.delete(bookId);
     }
